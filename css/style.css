@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.game-container {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    border: 10px solid #FF0000; 
+    margin: 0 auto;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+    justify-items: center;
+    align-items: center;
+}
+#character {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100px; 
+    height: 150px; 
+    background-image: url("../images/character_intra.png"); 
+}
